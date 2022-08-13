@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("head.ejs") %>
+  <body>
+    <div class="container-login">
+      <div class="container-login-main">
+        <div class="login-main-form">
+          <div class="login--logo">
+            <img
+              src="/images/it_0705zateuro.jpg"
+              class="login-logo"
+              alt="Logo NP Finance"
+            />
+          </div>
+
+          <div class="FormError" id="FormError"></div>
+          <div class="form-container">
+            <form id="form-login" onsubmit="getSignUpDetails(event, this)">
+              <label for="fname">Gebruikersnaam :</label><br />
+              <input
+                type="text"
+                value=""
+                id="signUpUserName"
+                class="loginName"
+                minlength="4"
+                name="username"
+              /><br />
+              <label for="lname">Wachtwoord :</label><br />
+              <input
+                type="password"
+                name="password"
+                id="signUpassword"
+                value=""
+                class="password"
+                minlength="8"
+                pattern="^[a-zA-Z0-9]+$"
+              /><br /><br />
+              <label for="lname">Herhaal Wachtwoord :</label><br />
+              <input
+                type="password"
+                name="password2"
+                id="signUpasswordValidation"
+                value=""
+                class="password"
+                minlength="8"
+                pattern="^[a-zA-Z0-9]+$"
+              /><br />
+              <p><a href=""></a></p>
+              <input
+                type="submit"
+                value="Sign Up"
+                id="signupBtn"
+                class="login-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="api.js"></script>
+    <script src="auth.js"></script>
+  </body>
+</html>

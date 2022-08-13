@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("head.ejs") %>
+  <body>
+    <div class="container-login">
+      <div class="container-login-main">
+        <div class="login-main-form">
+          <div class="login--logo">
+            <img src="images/it_0705zateuro.jpg" class="login-logo" alt="" />
+          </div>
+
+          <div class="FormError" id="FormError"></div>
+          <div class="form-container">
+            <form id="form-login" onsubmit="loginUser(event)">
+              <label for="fname">Gebruikersnaam :</label><br />
+              <input
+                type="text"
+                value=""
+                id="loginUserName"
+                class="loginName"
+                name="username"
+                required
+              /><br />
+              <label for="lname">Wachtwoord :</label><br />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="loginName"
+              /><br /><br />
+              <p class="ww-forget">
+                <a href="signup" class="ww-aanmaken">Wachtwoord aanmaken</a>
+              </p>
+              <input
+                type="submit"
+                value="Login"
+                id="login-btn"
+                class="login-btn"
+              />
+            </form>
+          </div>
+        </div>
+
+        <!-- <div class="login-main-image">
+          <img
+            src="./images/kelly-sikkema-G_91H-3qZOA-unsplash.jpg"
+            class="image-login"
+          />
+        </div> -->
+      </div>
+    </div>
+    <script src="api.js"></script>
+    <script src="auth.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+header {
+  background-color: #ffffff;
+  height: 4rem;
+  width: 100%;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3),
+    0 1px 3px 1px rgb(60, 64, 67, 0.15%);
+}
+
+.header--container {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 2.5rem;
+}
+#header-display-username {
+  font-size: 1rem;
+  margin-right: 5rem;
+}
+.header--login-placeholder {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: black;
+  font-weight: bold;
+}
+.user-pp {
+  height: 2rem;
+  border-radius: 30rem;
+}
+
+.log-out {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}

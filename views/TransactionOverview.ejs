@@ -1,0 +1,64 @@
+<section class="transactions">
+  <div class="filterTrans">
+    <div class="filterTrans-container">
+      <form id="filter" action="#">
+        <div class="filterTrans-1">
+          <div class="filterTrans-search">
+            <input
+              id="filterSearch"
+              name="q"
+              type="text"
+              placeholder="Search.."
+            />
+          </div>
+        </div>
+
+        <div class="filterTrans-1">
+          <button id="filter-Transaction">
+            <i class="fa-solid fa-magnifying-glass"></i> Search Now
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="filter-details">
+    <h6 class="transactions-heading">Transactions</h6>
+    <div class="add-transaction" id="add-transaction">
+      <h3 class="add-heading">
+        <i class="fa-solid fa-circle-plus"></i> Add Transaction
+      </h3>
+    </div>
+  </div>
+  <div class="transactions--container">
+    <div class="transactions--overview">
+      <div class="overview-1 transaction-date">Date</div>
+      <div class="overview-1 transaction-description">Description</div>
+      <div class="overview-1 transaction-number">Transaction Number</div>
+      <div class="overview-1 transaction-type">Type</div>
+      <div class="overview-1 transaction-typePayment">Payment</div>
+      <div class="overview-1 transaction-amount">Amount</div>
+      <div class="overview-1 transaction-edit">Edit</div>
+      <div class="overview-1 transaction-delete">Delete</div>
+      <div id="insertDate"></div>
+      <div id="description"></div>
+      <div id="transaction-number"></div>
+      <div id="type"></div>
+      <div id="typeAmountTrans"></div>
+      <div id="amountTrans"></div>
+      <div id="editTrans"></div>
+      <div id="deleteTrans"></div>
+    </div>
+    <div class="transactions--footer">
+      <div class="paginations" id="pagination"></div>
+      <div class="filterTrans-select">
+        <label for="limit">Limit</label>
+        <select name="limit" id="page" onchange="setLimit(this.value)">
+          <option value="10" id="limit-10">10</option>
+          <option value="20" id="limit-20">20</option>
+          <option value="50" id="limit-50">50</option>
+          <option value="100" id="limit-100">100</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</section>

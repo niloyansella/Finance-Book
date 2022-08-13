@@ -1,0 +1,84 @@
+<div class="add-trans-modal" id="add-trans">
+  <div class="add-trans-container">
+    <img
+      src="/images/close.png"
+      alt="close-trans-modal"
+      class="close-btn"
+      id="close-trans-modal-btn"
+    />
+    <div class="add-trans-form">
+      <h1 class="add-trans-form-heading" id="heading-modal">Add Transaction</h1>
+      <div class="add-trans-inputfield">
+        <form id="transactionForm" onsubmit="setTransaction(event, this)">
+          <div class="inputfield-trans">
+            <input
+              type="date"
+              id="transactionDate"
+              name="transactionDate"
+              placeholder="Company Name"
+            />
+          </div>
+
+          <!----------------------------------------------->
+          <div class="inputfield-trans">
+            <!-- <label for="companyName">Description</label> -->
+            <input
+              type="text"
+              id="companyName"
+              name="companyName"
+              placeholder="Company Name"
+              required
+            />
+          </div>
+
+          <!----------------------------------------------->
+          <div class="inputfield-trans">
+            <!-- <label for="transactionNumber">Transaction number</label> -->
+            <input
+              type="text"
+              id="transactionNumber"
+              name="transactionNumber"
+              placeholder="Transaction Number"
+              required
+            />
+          </div>
+
+          <!----------------------------------------------->
+          <div class="inputfield-trans">
+            <!-- <label for="transactionAmount"> Amount</label> -->
+            <input
+              type="text"
+              id="transactionAmount"
+              name="transactionAmount"
+              placeholder="Transaction Amount"
+              required
+            />
+          </div>
+          <!----------------------------------------------->
+          <div class="inputfield-trans">
+            <!-- <label for="transactionType" id="trans-type"> Type</label> -->
+            <select name="transactionType" id="transactionType">
+              <option value="Income" id="income">Income</option>
+              <option value="Purchase" id="purchase">Purchase</option>
+              <option value="Salary" id="salary">Salary</option>
+            </select>
+          </div>
+          <div class="inputfield-trans">
+            <select name="transactionPaymentType" id="transactionPaymentType">
+              <option value="Cash" id="Cash">Cash</option>
+              <option value="Pin" id="Pin">Pin</option>
+            </select>
+          </div>
+          <div class="submit-trans">
+            <input
+              type="submit"
+              value="Submit"
+              id="submitTransaction"
+              class="add-trans-sumbit"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

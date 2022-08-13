@@ -1,0 +1,103 @@
+.container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* background-color: #0b6e5c; */
+  background-image: linear-gradient(to bottom, #1c1c1c00, #fbaf2200),
+    url("../images/singapore-wallpaper-hd-1920x1080-493018.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-login-main {
+  background-color: #ffffffe2;
+  border: 2px solid black;
+  height: 30rem;
+  width: 20rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 10px 0 rgb(0, 0, 0, 0.25), 0 10px 20px 0 rgb(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  border-radius: 0.35rem;
+  box-shadow: 0 2px 10px 0 rgb(0, 0, 0, 0.25), 0 10px 20px 0 rgb(0, 0, 0, 0.15);
+}
+
+.image-login {
+  height: 28rem;
+  width: 40rem;
+}
+
+/* .login-main-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#form-login {
+  display: block;
+  width: 15rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.loginName {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border: 3px solid #fbb022;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 10px 0 rgb(0, 0, 0, 0.25), 0 10px 20px 0 rgb(0, 0, 0, 0.15);
+}
+
+.password {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border: 3px solid #fbb022;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 10px 0 rgb(0, 0, 0, 0.25), 0 10px 20px 0 rgb(0, 0, 0, 0.15);
+}
+
+.ww-forget {
+  font-size: 0.8rem;
+}
+
+.login-btn {
+  background-color: #fbb022;
+  color: #000000;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 10px 0 rgb(0, 0, 0, 0.25), 0 10px 20px 0 rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 10rem;
+}
+
+.login-logo {
+  height: 6rem;
+  margin-bottom: 2rem;
+}
+
+.login--logo {
+  display: flex;
+  justify-content: center;
+}
+.loginName {
+  /* color: white; */
+  margin-bottom: 1rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ww-aanmaken {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}

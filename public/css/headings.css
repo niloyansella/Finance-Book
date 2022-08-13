@@ -1,0 +1,19 @@
+.heading-primary {
+  font-size: 1rem;
+  color: #383838;
+}
+
+.transactions-heading {
+  font-size: 1.5rem;
+  color: #383838;
+}
+
+.add-transaction h3 {
+  color: #383838;
+  font-size: 0.8rem;
+}
+
+.add-trans-form-heading {
+  font-size: 1.3rem;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+.sidebar a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5rem;
+  display: block;
+  padding: 0.5rem;
+}
+
+.sidebar a:hover {
+  text-align: center;
+  text-decoration: underline;
+  background-color: #fbb022;
+  transition: 0.8s;
+  color: #fff;
+  font-size: 2.5rem;
+  display: block;
+  padding: 0.5rem;
+}
