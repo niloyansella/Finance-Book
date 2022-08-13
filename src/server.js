@@ -64,15 +64,15 @@ app.get("/homepage", isAuthenticated, async (req, res) => {
 });
 
 app.get("/about", isAuthenticated, (req, res) => {
-  res.render("about", { pageTitle: "About us | NS Finance" });
+  res.render("about", { pageTitle: "About us | FinanceBook " });
 });
 
 app.get("/", (req, res) => {
-  res.render("login", { pageTitle: "Login in | NP Finance" });
+  res.render("login", { pageTitle: "Login in |FinanceBook " });
 });
 
 app.get("/signup", (req, res) => {
-  res.render("signup", { pageTitle: "Sign Up | NP Finance" });
+  res.render("signup", { pageTitle: "Sign Up | FinanceBook" });
 });
 
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}`));
