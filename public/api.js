@@ -5,5 +5,7 @@ const api = async (method, path, body) => {
     data: body,
   });
 
+  console.log("Hello");
+
   return response.data;
 };
