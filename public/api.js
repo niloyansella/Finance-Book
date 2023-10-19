@@ -1,7 +1,7 @@
 const api = async (method, path, body) => {
   const response = await axios({
     method,
-    url: `https://finance-eckb.onrender.com${path}`,
+    url: `https://financebook.niloyansellathurai.dev${path}`,
     data: body,
   });
 
